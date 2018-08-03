@@ -9,7 +9,7 @@
     <% end %>
   </ul>
 
-
+  <%= link_to "Delete cocktail", cocktail_path(@cocktail), method: :delete %>
   <%= link_to "Add scrumptious ingredients", new_cocktail_dose_path(@cocktail) %>
   <br>
   <br>
